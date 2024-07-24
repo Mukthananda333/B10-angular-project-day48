@@ -20,6 +20,6 @@ phases:
   #   commands:
   #     - aws s3 cp dist/my-angular-project s3://b10-code-pipeline-website-prod-bucket --recursive
 
-  artifacts:
-    files:
-      - dist/my-angular-project/**/*
+artifacts:
+  files:
+    - dist/my-angular-project/**/*
